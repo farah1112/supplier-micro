@@ -2,10 +2,11 @@ const { shareAll, withModuleFederationPlugin } = require('@angular-architects/mo
 
 module.exports = withModuleFederationPlugin({
 
-  name: 'supplier-micro',
+  name: 'suppliermicro',  // host 
+  filename: "remoteEntry.js",
 
   exposes: {
-    './Component': './src/app/app.component.ts',
+    './RemoteApp': './src/app/remote/remote.component.ts'
   },
 
   shared: {
