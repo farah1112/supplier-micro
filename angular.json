@@ -78,6 +78,7 @@
 						"publicHost": "http://localhost:4201",
 						"extraWebpackConfig": "webpack.config.js"
 					}
+					
 				},
 				"extract-i18n": {
 					"builder": "ngx-build-plus:extract-i18n",
